@@ -1,0 +1,10 @@
+body {
+  background-color: red;
+}
+
+body nav {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+/*# sourceMappingURL=app.component.css.map */
