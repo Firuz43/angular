@@ -1,1 +1,9 @@
-<app-login></app-login>
+<nav *ngIf="authenticationService.isAuthenticated">
+  <ul>
+    <li>Home</li>
+    <li>Home</li>
+    <li>Home</li>
+  </ul>
+</nav>
+
+<router-outlet></router-outlet>
